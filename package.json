@@ -1,0 +1,16 @@
+{
+  "name": "consul",
+  "version": "1.0.0",
+  "description": "docker run -d --name my-running-haproxy -p 8080:80 -v $(pwd)/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg haproxy:lts-alpine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consul": "^1.2.0",
+    "express": "^4.18.2"
+  }
+}
